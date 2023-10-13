@@ -1,0 +1,564 @@
+@font-face {
+    font-family: mycustom;
+    src: url('RobotoSlab-VariableFont_wght.ttf');
+}
+
+body {
+    margin: 0px;
+    background-color: #eeecec;
+    font-family: sans-serif;
+}
+.about:hover, #cvdownload:hover 
+{
+    background-color: #08747e;
+}
+html {
+    scroll-behavior: smooth;
+}
+
+.header-ol li {
+    list-style-type: none;
+    margin-top: 20%;
+    color: white;
+}
+
+.links {
+    width: 90%;
+    margin-top: 50%;
+}
+
+.links a {
+    padding-left: 6%;
+}
+
+.header-ol {
+    padding: 0;
+    margin-left: 15%;
+    height: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: white
+}
+
+.header-ol li a:hover{
+    color: #00A4B4;
+    letter-spacing: 1px;
+    font-size: 16px;
+}
+
+.header {
+    height: 100%;
+    width: 21%;
+    border: 1px solid black;
+    background-color: black;
+    float: left;
+    z-index: 1;
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+}
+
+.content {
+    margin-left: 25%;
+    height: 600px;
+}
+#exp, #project{
+    margin-top: 24%;
+}
+#service{
+    margin-top: 2%;
+}
+.main-content {
+    float: left;
+    margin-top: 13%;
+    width: 67%;
+}
+.description{
+    clear:both;
+    float:left;
+    width:50%;
+
+}
+.pic {
+    float: left;
+    margin-top: -6%;
+    width: 28%;
+    height: 47%;
+    margin-left: 12%;
+}
+
+.pic img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    padding: 0px;
+}
+
+.content #pmargin {
+    margin-bottom: 80px;
+}
+
+.description p
+{
+    font-family: mycustom;
+    font-style: italic;
+}
+
+.content .main-content .about,
+.about {
+    background-color: #00A4B4;
+    border: none;
+    color: white;
+    padding: 10px 30px;
+    cursor: pointer;
+}
+
+#cvdownload {
+    padding: 9px;
+    background-color: #00A4B4;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.aboutme {
+    clear: both;
+    height: 400px;
+    margin-left: 25%;
+    margin-top: 7%;
+}
+
+.aboutme .aboutpic {
+    float: left;
+    width: 28%;
+}
+
+.aboutme .aboutpic img {
+    width: 220px;
+    height: 220px;
+}
+
+.aboutme .info {
+    float: left;
+    width: 67%;
+}
+
+table .col1,
+table .col2 {
+    width: 500px;
+    height: 30px
+}
+
+table {
+    margin-bottom: 50px;
+}
+
+.skillsBox {
+    clear: both;
+    height: 350px;
+    margin-left: 25%;
+}
+
+.skills {
+    float: left;
+    width: 50%;
+}
+
+.skillexp {
+    float: left;
+    width: 42%;
+    margin-top: 7%;
+    margin-left: 3%;
+}
+
+.skillexp .skillexpbox1 {
+    width: 48%;
+    background-color: white;
+    text-align: center;
+    float: left;
+    margin-right: 2%;
+    margin-top: 2%;
+    box-shadow: 5px 5px 5px lightgrey;
+    transition: transform;
+}
+
+.skillexp .skillexpbox1:hover {
+    transform: scale(1.1);
+    transition-duration: 1s;
+}
+
+.skills .box1 {
+    margin-bottom: 10px;
+    width: 90%;
+}
+
+.bar {
+    clear: both;
+    width: 100%;
+    background-color: lightgray;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+}
+
+.progress1,
+.progress2,
+.progress3,
+.progress4 {
+    height: 10px;
+    border-radius: 10px;
+    background-color: #00A4B4;
+}
+
+.bar .progress1 {
+    width: 80%;
+}
+
+.bar .progress2 {
+    width: 82%;
+}
+
+.bar .progress3 {
+    width: 85%;
+}
+
+.bar .progress4 {
+    width: 90%;
+}
+
+.services,
+.contactservices {
+    clear: both;
+    margin-left: 25%;
+    margin-top: 7%;
+
+    height: auto;
+}
+
+.services .service1,
+.contactservices .contactservice1 {
+    width: 30%;
+    height: auto;
+    background-color: white;
+    padding-top: 2%;
+    padding-bottom: 1%;
+    float: left;
+    margin-right: 2%;
+    box-shadow: 5px 5px 5px lightgrey;
+    transition: transform;
+    transition-duration: 1s;
+}
+
+#contact .service1:hover {
+    transform: scale(1.1);
+}
+
+.services .service1 .circle,
+.contactservices .contactservice1 .circle {
+    width: 50px;
+    height: 50px;
+    margin: auto;
+    border-radius: 50%;
+    background-color: #00A4B4;
+    position: relative;
+}
+
+.services .service1 .eclipse {
+    width: 120px;
+    height: 30px;
+    margin: auto;
+    border-radius: 30px;
+    background-color: #00A4B4;
+    position: relative;
+}
+
+.services .service1 .year {
+    position: absolute;
+    top: -8px;
+    left: 18%;
+}
+
+.services .service1 .yearPresent {
+    position: absolute;
+    top: -8px;
+    left: 12%;
+}
+
+.services .service1 i,
+.contactservices .contactservice1 i {
+    position: absolute;
+    top: 33%;
+    left: 37%;
+    width: 20px;
+    height: 20px;
+}
+
+.services .service1 .service-info,
+.contactservices .contactservice1 .service-info {
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: justify;
+}
+
+.services .service1 .service-info h2,
+.services .service1 .service-info p,
+.contactservices .contactservice1 .service-info h2,
+.contactservices .contactservice1 .service-info p {
+    text-align: center;
+}
+
+.messagebox {
+    margin-left: 25%;
+    margin-bottom: 50px;
+}
+
+.messagebox .formbox {
+    margin-top: 2%;
+    clear: both;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    width: 60%;
+    height: auto;
+    background-color: white;
+    float: left;
+    margin-right: 1%;
+}
+.map{
+    margin-top: 2%;
+}
+
+.messagebox .formbox input,
+textarea {
+    border: none;
+    border-bottom: 1px solid grey;
+}
+
+input,
+textarea {
+    margin-bottom: 20px;
+    margin-left: 25px;
+    width: 90%
+}
+
+.messagebox a {
+    margin-left: 25px;
+}
+
+.skillexp .skillexpbox1 h2 {
+    color: #00A4B4;
+}
+
+.projects {
+    clear: both;
+    position: relative;
+    width: 30%;
+    height: auto;
+    background-color: #fff;
+    margin-right: 2%;
+    display: inline-block;
+    box-shadow: 5px 5px 5px lightgrey;
+}
+
+.image {
+    width: 100%;
+    height: 200px;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgb(207, 204, 204);
+    color: #f1f1f1;
+    width: 100%;
+    transition: .8s ease;
+    opacity: 0;
+    color: rgb(12, 12, 199);
+    font-size: 15px;
+    padding-top: 22%;
+    text-align: center;
+}
+
+.projects:hover .overlay {
+    opacity: 1;
+    border-top-left-radius: 30%;
+    border-bottom-right-radius: 30%;
+}
+
+.services .projects h3 {
+    text-align: center;
+    padding-top: 15px;
+    ;
+}
+
+#nameerr,
+#phnerr {
+    margin-top: 0px;
+    margin-left: 25px;
+    color: red;
+    font-size: 15px;
+    ;
+}
+
+.skills .box1 .skill1 {
+    display: flexbox;
+    float: left;
+}
+
+.skills .box1 .percent {
+    display: flexbox;
+    float: right;
+}
+
+.overlaybtn {
+    background-color: green;
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+    padding: 20px;
+    width: 60%;
+    margin-left: 16%;
+    margin-top: 60px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.overlaybtn a i {
+    margin-left: 30px;
+}
+
+.map {
+    float: left;
+    width: 34%;
+    height: 368px;
+
+}
+
+.map iframe {
+    width: 100%;
+    height: 100%;
+
+}
+
+#exampleModal{
+    display:none;
+   
+}
+.links a:hover{
+    color:#00A4B4;
+}
+
+@media screen and (max-width:990px) {
+    .header {
+        width: 100%;
+        height: 10em;
+    }
+
+    .header-ol {
+        margin-left: 4%;
+    }
+
+    .header-ol li {
+        margin-top: 0;
+    }
+
+    .header-ol li a {
+        float: left;
+        margin-top: 3%;
+        ;
+        margin-right: 4%;
+    }
+
+    .links {
+        margin-top: 45px;
+        margin-left: 50px;
+    }
+  
+  
+    .content,
+    .aboutme,
+    .skillsBox,
+    .services,
+    .messagebox,
+    .contactservices {
+        margin-left: 4%;
+        ;
+    }
+
+    .pic {
+        margin-top: 37%;
+    }
+
+    .main-content {
+        margin-top: 25%;
+    }
+
+}
+
+@media screen and (max-width:600px) {
+    .content{
+        display:flex;
+        flex-direction: column;
+    }
+
+    .h3class{
+        margin-top: 30%;
+        order:1;
+    }
+    .content .pic {
+        margin-top: 5%;
+        order:2;
+    }
+    .description{
+        order:3;
+        width:95%;
+        /* margin-top: 50%; */
+    }
+   
+    .links {
+        margin-top: 80px;
+        margin-left: auto;
+
+    }
+
+    .main-content,
+    .aboutme .info,
+    .skills,
+    .skillexp .skillexpbox1,
+    .skillexp,
+    .services .service1,
+    .projects,
+    .contactservices .contactservice1,
+    .messagebox .formbox,
+    .map {
+        width: 95%;
+    }
+
+
+    .skillexp,
+    .services {
+        margin-bottom: 7%;
+    }
+
+    .services .service1,
+    .projects,
+    .contactservices .contactservice1,
+    .messagebox .formbox,
+    .map {
+        margin-bottom: 2%;
+    }
+
+    .pic {
+        width: 80%;
+    }
+
+    .skillexp {
+        margin-left: 0px;
+    }
+    .aboutme{
+        margin-top: 95%;
+    }
+
+}
